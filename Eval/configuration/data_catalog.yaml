@@ -1,0 +1,60 @@
+adult:
+  target: income
+  continous:
+    - age
+    - hours_per_week
+  categorical:
+    - race
+    - gender
+    - workclass
+    - education 
+    - marital_status
+    - occupation 
+  immutable:
+
+bank:
+  target: deposit
+  continous:
+    - age
+    - balance
+    - day
+    - duration
+    - campaign
+    - pdays
+    - previous
+  categorical:
+    - job
+    - marital
+    - education
+    - default
+    - housing
+    - loan
+    - contact
+    - month
+    - poutcome
+  immutable:
+
+churn:
+  target: Churn
+  continous:
+    - tenure
+    - MonthlyCharges
+    - TotalCharges
+  categorical:
+    - gender
+    - SeniorCitizen
+    - Partner
+    - Dependents
+    - PhoneService
+    - MultipleLines
+    - InternetService
+    - OnlineSecurity
+    - OnlineBackup
+    - DeviceProtection
+    - TechSupport
+    - StreamingTV
+    - StreamingMovies
+    - Contract
+    - PaperlessBilling
+    - PaymentMethod
+  immutable:

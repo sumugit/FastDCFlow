@@ -1,0 +1,49 @@
+adult_dataset: /workspace/Eval/datasets/adult/processed_adult.csv
+law_dataset: /workspace/Eval/datasets/law/law_data.csv
+compas_dataset: /workspace/Eval/datasets/compas/compas.csv
+simple_bn_dataset: /workspace/Eval/datasets/simple_bn/processed_bn1.csv
+moon_dataset: /workspace/Eval/datasets/moon/moon.csv
+
+# predictive_model_adult: /workspace/NormalizingFlow/models/predictive_model_adult.pth
+# predictive_model_targetenc_adult: /workspace/NormalizingFlow/models/predictive_model_targetenc_adult.pth
+# predictive_model_onehotenc_adult: /workspace/NormalizingFlow/models/predictive_model_onehotenc_adult.pth
+
+trained_models_targetenc_adult: /workspace/Eval/trained_models/adult/targetenc_adult.pth
+trained_models_onehotenc_adult: /workspace/Eval/trained_models/adult/onehotenc_adult.pth
+accuracy_per_fold_targetenc_adult: /workspace/Eval/eval_logs/adult/accuracy_per_fold_targetenc_adult.json
+auc_per_fold_targetenc_adult: /workspace/Eval/eval_logs/adult/auc_per_fold_targetenc_adult.json
+accuracy_per_fold_onehotenc_adult: /workspace/Eval/eval_logs/adult/accuracy_per_fold_onehotenc_adult.json
+auc_per_fold_onehotenc_adult: /workspace/Eval/eval_logs/adult/auc_per_fold_onehotenc_adult.json
+adult_dataset_targetenc: /workspace/Eval/eval_logs/adult/targetenc_dict_adult.json
+
+
+# predictive_model_law: /workspace/NormalizingFlow/models/predictive_model_law.pth
+# predictive_model_compas: /workspace/NormalizingFlow/models/predictive_model_compas.pth
+# predictive_model_simple_bn: /workspace/NormalizingFlow/models/predictive_model_simple_bn.pth
+# predictive_model_moon: /workspace/NormalizingFlow/models/predictive_model_moon.pth
+
+flow_model_adult: /workspace/Eval/cf_models/adult/flow_model_adult.pth
+flow_model_law: /workspace/Eval/cf_models/law/flow_model_law.pth
+flow_model_compas: /workspace/Eval/cf_models/compas/flow_model_compas.pth
+flow_model_simple_bn: /workspace/Eval/cf_models/simble_bn/flow_model_simple_bn.pth
+flow_model_moon: /workspace/Eval/cf_models/moon/flow_model_moon.pth
+
+flow_ce_adult: /workspace/Eval/cf_models/adult/flow_ce_adult.pth
+flow_ce_law: /workspace/NormalizingFlow/models/law/flow_ce_law.pth
+flow_ce_compas: /workspace/NormalizingFlow/models/compas/flow_ce_compas.pth
+flow_ce_simple_bn: /workspace/NormalizingFlow/models/simple_bn/flow_ce_simple_bn.pth
+
+cf_flow_model_targetenc_adult: /workspace/Eval/cf_models/adult/cf_flow_model_targetenc_adult.pth
+cf_flow_model_onehotenc_adult: /workspace/Eval/cf_models/adult/cf_flow_model_onehotenc_adult.pth
+# lean_cflow_deq_adult: /workspace/NormalizingFlow/models/lean_cflow_deq_adult.pth
+
+cfs_targetenc_adult: /workspace/Eval/CF_Flow/adult/cfs_targetenc_adult.csv
+cfs_onehotenc_adult: /workspace/Eval/CF_Flow/adult/cfs_onehotenc_adult.csv
+
+# result_adult: /workspace/NormalizingFlow/reports/results/adult/{}
+# result_law: /workspace/NormalizingFlow/reports/results/law/{}
+# result_compas: /workspace/NormalizingFlow/reports/results/compas/{}
+# result_simple_bn: /workspace/NormalizingFlow/reports/results/simple_bn/{}
+
+
+

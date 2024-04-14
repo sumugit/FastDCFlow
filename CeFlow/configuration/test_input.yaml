@@ -1,0 +1,19 @@
+adult:
+  input1:
+    race : White
+    gender: Male
+    workclass: Other/Unknown
+    education: School
+    marital_status: Married
+    occupation: Other/Unknown
+    age: 17
+    hours_per_week: 30
+  input2:
+    race : White
+    gender: Female
+    workclass: Private
+    education: Bachelors
+    marital_status: Single
+    occupation: Blue-Collar
+    age: 24
+    hours_per_week: 45

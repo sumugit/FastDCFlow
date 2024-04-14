@@ -1,0 +1,81 @@
+adult:
+  target: income
+  continous:
+    - age
+    - hours_per_week
+    # - fnlwgt
+    # - education-num
+    # - capital-gain
+    # - hours-per-week
+    # - capital-loss
+  categorical:
+    # - native-country
+    - race
+    # - relationship
+    - gender
+    - workclass
+    - education 
+    - marital_status
+    - occupation 
+  immutable:
+    # - age
+    # - gender
+
+
+give_me_some_credit:
+  target: SeriousDlqin2yrs
+  continous:
+    - RevolvingUtilizationOfUnsecuredLines
+    - age
+    - NumberOfTime30-59DaysPastDueNotWorse
+    - DebtRatio
+    - MonthlyIncome
+    - NumberOfOpenCreditLinesAndLoans
+    - NumberOfTimes90DaysLate
+    - NumberRealEstateLoansOrLines
+    - NumberOfTime60-89DaysPastDueNotWorse
+    - NumberOfDependents
+  categorical:
+  immutable:
+    - age
+compas:
+  target: score
+  continous:
+    - age
+    - two_year_recid
+    - priors_count
+    - length_of_stay
+  categorical:
+    - c_charge_degree
+    - race
+    - sex
+  immutable:
+    - age
+    - race
+    - sex
+law:
+  target: ZFYA
+  continous:
+    - LSAT
+    - UGPA
+  categorical:
+    - race
+    - sex
+  immutable:
+    - race
+    - sex
+simple_bn:
+  target: y
+  continous:
+    - x1
+    - x2
+    - x3
+  categorical:
+  immutable:
+moon:
+  target: y
+  continous:
+    - x1
+    - x2
+  categorical:
+  immutable:

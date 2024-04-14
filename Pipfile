@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu116"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu116"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu116"
+verify_ssl = true
+name = "downloadpytorch"
+
+[packages]
+numpy = "*"
+sklearn = "*"
+matplotlib = "*"
+torch = {version = "*", index = "downloadpytorch"}
+torchvision = {version = "*", index = "downloadpytorch"}
+torchaudio = {version = "*", index = "downloadpytorch"}
+pandas = "*"
+tqdm = "*"
+jsonschema = "*"
+ipdb = "*"
+sympy = "*"
+pymoo = "*"
+lightgbm = "*"
+torchcontrib = "*"
+pyyaml = "*"
+seaborn = "*"
+tensorflow = "*"
+actionable-recourse = "*"
+lime = "*"
+dice-ml = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.9"
