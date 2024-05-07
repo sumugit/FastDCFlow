@@ -1,6 +1,6 @@
 *__pycache__/
 results/
-datasets/
+# datasets/
 DU-VAE/data/
 DU-VAE/models
 # csv/
