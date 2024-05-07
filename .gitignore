@@ -3,7 +3,7 @@ results/
 datasets/
 DU-VAE/data/
 DU-VAE/models
-csv/
+# csv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
