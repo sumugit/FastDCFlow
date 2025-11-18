@@ -1,7 +1,7 @@
 # FastDCFlow
 This is our implementation for the paper:
 
-_Model-Based Counterfactual Explanations Incorporating Feature Space Attributes for Tabular Data [[arXiv link](https://arxiv.org/abs/2404.13224)]_ 
+_Model-Based Counterfactual Explanations Incorporating Feature Space Attributes for Tabular Data [[IEEE Xplore link](https://ieeexplore.ieee.org/document/10651395)] [[arXiv link](https://arxiv.org/abs/2404.13224)]_ 
 
 Yuta Sumiya, Hayaru shouno
 
@@ -86,4 +86,5 @@ In case that you have any difficulty about the implementation or you are interes
 Author: Yuta Sumiya (sumiya@uec.ac.jp / diddy2983@gmail.com)
 
 Also, welcome to visit my academic homepage: https://sumugit.github.io
+
 
