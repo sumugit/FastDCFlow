@@ -69,7 +69,16 @@ To use the FastDCFlow framework, follow these steps:
 ## Citation
 Please cite our paper if you use our codes. Thanks!
 ```
-coming soon.
+@INPROCEEDINGS{10651395,
+  author={Sumiya, Yuta and Shouno, Hayaru},
+  booktitle={2024 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Model-Based Counterfactual Explanations Incorporating Feature Space Attributes for Tabular Data}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-10},
+  keywords={Measurement;Training;Temperature distribution;Perturbation methods;Source coding;Training data;Predictive models;counterfactual explanations;model-based methods;tabular data;normalizing flows},
+  doi={10.1109/IJCNN60899.2024.10651395}}
 ```
 
 In case that you have any difficulty about the implementation or you are interested in our work,  please feel free to communicate with us by:
@@ -77,3 +86,4 @@ In case that you have any difficulty about the implementation or you are interes
 Author: Yuta Sumiya (sumiya@uec.ac.jp / diddy2983@gmail.com)
 
 Also, welcome to visit my academic homepage: https://sumugit.github.io
+
